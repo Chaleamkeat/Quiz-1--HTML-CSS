@@ -1,0 +1,77 @@
+.p{
+    border-style: double;
+    background-color: blue;
+}
+#head{
+    font-size: xx-large ;
+    font-weight: bolder;
+    text-align: center;
+    background-color: hsl(352, 100%, 50%);
+    color: white;
+    height: 50px;
+    width: 100%;
+    flex-direction: column;
+
+}
+#Bodypage{
+    font-weight: normal;
+    text-align: left;
+    background-color: #747474;
+    width: 65%;
+    height: 600px;
+    color: white;
+    flex-direction: row;
+}
+#leftpage{
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    background-color:white;
+    color: hwb(0 0% 100%);
+    width: 15%;
+    
+}
+#Rightpage{
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    background-color:white;
+    width: 15%;
+    color: hwb(0 0% 100%);
+    flex-direction: row;
+}
+#Footer{
+    font-size: x-large;
+    font-weight: normal;
+    text-align: center;
+    background-color: hsl(300, 76%, 53%);
+    
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+/* .flex-container-haed{
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 15%;
+}
+.flex-container-Body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+}
+.flex-container-Right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 15%; */
+}
